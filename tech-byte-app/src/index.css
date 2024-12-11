@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Playfair";
+  src: local("PlayfairDisplay-Regular"),
+    url("./assets/fonts/PlayfairDisplay-Regular") format("truetype");
+}
