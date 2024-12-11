@@ -1,7 +1,11 @@
 import React from "react";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <div className="py-14 mb-10">
+      <div className="container">Navbar</div>
+    </div>
+  );
 };
 
 export default Navbar;
